@@ -1,0 +1,33 @@
+body {
+    background-image: url(https://images8.alphacoders.com/133/thumb-1920-1331367.png);
+    color: white;
+}
+
+.imageaolado{
+    display: flex;
+    align-items: center;
+}
+
+.imageaolado img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.imageaolado h1 {
+    margin: 0;
+}
+.videosgojo iframe{
+    opacity:0.5 ;
+    height: 200px;
+}
+
+.videosgojo  iframe:hover {
+  opacity:1.0;
+  border:1px solid wheat ;
+}
+.videosgojo {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
